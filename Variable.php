@@ -6,5 +6,5 @@ $age = "21";
 
 echo "Nama Saya : ".$name;
 echo "\n";
-echo "Saya Berusia : ".$age."Tahun";
-?>
+echo "Saya Berusia : ".$age." Tahun";
+?>  
