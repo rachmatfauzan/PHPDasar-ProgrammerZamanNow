@@ -8,10 +8,13 @@
 define("AUTHOR", "CodeHolicia");
 define("APP_VERSION", 4.1);
 
-echo "Nama Author : ". AUTHOR;
-echo "\n";
+// test
+define('YEAR', '2021');
+
+echo "Nama Author : ". AUTHOR . PHP_EOL ."Tahun : " . YEAR . PHP_EOL;
 
 echo "App Verison : " . APP_VERSION;
+
 
 
 
