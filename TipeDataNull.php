@@ -18,12 +18,13 @@ echo "Is Name Null? : ";
 var_dump(is_null($name));
 echo "\n";
 
-// Untuk Menghapus sebuah variabel
-// kita dapat menggunakan => unset($namavariabel);
 
 $name = "Fauzan";
+echo "Apakah data nama masih kosong ? ";
 var_dump(is_null($name));
 
+// Untuk Menghapus sebuah variabel
+// kita dapat menggunakan => unset($namavariabel);
 unset($name); // <<=== UNSET
 // echo $name;
 
