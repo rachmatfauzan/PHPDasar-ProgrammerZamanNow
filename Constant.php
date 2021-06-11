@@ -11,7 +11,8 @@ define("APP_VERSION", 4.1);
 // test
 define('YEAR', '2021');
 
-echo "Nama Author : ". AUTHOR . PHP_EOL ."Tahun : " . YEAR . PHP_EOL;
+echo "Nama Author : ". AUTHOR . PHP_EOL;
+echo "Tahun : " . YEAR . PHP_EOL;
 
 echo "App Verison : " . APP_VERSION;
 
