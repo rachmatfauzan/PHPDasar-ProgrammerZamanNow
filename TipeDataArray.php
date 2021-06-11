@@ -42,8 +42,9 @@ var_dump($budi);
 // akses index array didalam array
 var_dump($ajo["address"]["country"]);
 
-
-
+// Menhitung data array
+echo "Total Data Array :";
+var_dump(count($ajo));
 
 // menggunakan
 
