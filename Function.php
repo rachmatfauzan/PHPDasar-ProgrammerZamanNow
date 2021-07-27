@@ -8,7 +8,7 @@ sayHello();
 sayHello();
 
 
-// memanggil if didalam  function
+// memanggil function didalam if
 $buat = true; // jika salah maka function dibawah tidak bisa tampil karena function yang didalam if tidak di eksekusi
 
 if ($buat){

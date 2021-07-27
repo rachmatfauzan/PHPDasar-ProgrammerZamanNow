@@ -23,11 +23,28 @@ function getFinal(int $value){
 }
 
 // cuba function
-$hasil = getFinal(70);
-var_dump($hasil);
-
-$hasil = getFinal(90);
+$hasil = getFinal(88);
 var_dump($hasil);
 
 
-?>
+$hasilSwitch = getFinal(100);
+var_dump($hasilSwitch);
+
+/*
+    Kolaborasi menggunakan switch 
+*/
+
+// switch($hasilSwitch){
+//     case "B":
+//         case "A":
+//         echo "Kamu cukup pandai";
+//         break;
+//     default:
+//         echo "Kamu mending belajar lagi" . PHP_EOL;
+// }
+
+if ($hasilSwitch == "A" || $hasilSwitch == "B"){
+    echo "Good Job !!";
+}else{
+    echo "Try again";
+}

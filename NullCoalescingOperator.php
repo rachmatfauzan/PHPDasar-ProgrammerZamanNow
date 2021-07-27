@@ -28,6 +28,11 @@ $action = $data["body"] ?? "Nothing";
 echo $action . PHP_EOL;
 
 
+$dataBaru = ["access"];
+$check = $dataBaru['access'] ?? "nothing";
+var_dump($check);
+
+
 
 
 
