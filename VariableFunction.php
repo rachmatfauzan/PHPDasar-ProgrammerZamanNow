@@ -1,8 +1,5 @@
 <?php 
 
-
-
-
 function foo(){
     echo "Foo". PHP_EOL;
 }
@@ -27,4 +24,3 @@ function sayHello(string $name , $filter){
 
 SayHello("Rachmat", "strtoupper");
 SayHello("Rachmat", "strtolower");
-?>
