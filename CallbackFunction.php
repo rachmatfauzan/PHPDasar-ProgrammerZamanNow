@@ -12,5 +12,3 @@ SayHello("Juwita", function ($name):string {
 });
 // menggunakan arrow function
 SayHello("Fikri", fn($name) => strtolower($name) );
-
-?>

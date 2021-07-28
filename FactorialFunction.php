@@ -23,11 +23,3 @@ function factorialRecursive(int $value): int
         return $value * factorialRecursive($value - 1);
     }
 }
-
-var_dump(factorialRecursive(5));
-$nilaiAwal = 2000;
-
-for ($nilaiAwal; $nilaiAwal >= 1; $nilaiAwal--) {
-
-    echo "Tampilan ke - $nilaiAwal" . PHP_EOL;
-}
