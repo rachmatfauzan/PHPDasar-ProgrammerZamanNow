@@ -2,7 +2,7 @@
 
 $array = [10, 8, 6, 4, 2];
 
-$dataResult = array_map(fn($value) => $value * 2 , $array);
+$dataResult = array_map(fn($array) => $array * 2 , $array);
 var_dump($dataResult);
 
 sort($array);
