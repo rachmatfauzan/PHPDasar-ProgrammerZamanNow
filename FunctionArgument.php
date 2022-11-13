@@ -61,5 +61,5 @@ function sumAll(...$values)
 }
 sumAll(1, 4, 6, 8);
 
-$values = [3, 5, 7, 9];
-sumAll(...$values);
+$umur = [3, 5, 7, 9];
+sumAll(...$umur);
