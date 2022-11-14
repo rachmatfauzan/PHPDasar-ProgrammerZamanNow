@@ -1,6 +1,6 @@
 <?php 
 
-$counter = 2;
+$counter = 22;
 
 do{
     echo "Percobaan Perulangan DoWhile ke-$counter" . PHP_EOL;
