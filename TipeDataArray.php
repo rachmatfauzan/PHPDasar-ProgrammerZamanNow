@@ -7,7 +7,7 @@ var_dump($values);
 
 $names = ["Aji", "Riski", "Jordi"];
 // mengubah data sesuai urutan data index
-$names[3] = "Lestaluhu";
+$names[2] = "Lestaluhu";
 // Menambahkan data di paling belakang
 $names[] = "Rachmat";
 var_dump($names);
@@ -34,7 +34,7 @@ var_dump($ajo["fullname"]);
 $budi = [
     "id" => 2.7,
     "fullname" => "Budi Setiawan Sejahtera",
-    "address" => "Puskopkar"
+    'addresses' => 'Puskopkar'    
 ];
 
 var_dump($budi);
@@ -43,10 +43,7 @@ var_dump($budi);
 var_dump($ajo["address"]["country"]);
 
 // Menhitung data array
-echo "Total Data Array :";
-var_dump(count($ajo));
-
-// menggunakan
+echo "Total Data Array : " . count($ajo) .PHP_EOL;
 
 
 
