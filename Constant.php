@@ -5,7 +5,7 @@
 // Ada 2 Parameter 
 // define("nama variabel", "nilai Variabel");
 
-define("AUTHOR", "CodeHolicia");
+define("AUTHOR", "CodeHoliciaStarterPack");
 define("APP_VERSION", 4.1);
 
 // test
