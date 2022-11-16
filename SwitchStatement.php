@@ -13,16 +13,19 @@ switch ($nilai){
         echo "Mungkin anda salah jurusan" . PHP_EOL;
 }
 
+echo PHP_EOL. "===================" . PHP_EOL;
 
 // Syntacx Alternatif
-$tampan = false;
+$tampan = true;
 
 switch ($tampan) :
     case true:
-        echo "Anda Sangat Tampan";
+        echo "Anda Terlalu  Tampan";
         break;
     default:
         echo "Maaf, Anda Tidak Tampan heheheh";
 endswitch;
+echo PHP_EOL. "===================" . PHP_EOL;
+
 
 ?>

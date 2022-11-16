@@ -12,7 +12,7 @@ if($matematika >= 70 && $biologi >= 75){
 
 
 // Membuat Pengkondisian else if
-$pkn = 60 ;
+$pkn = 80 ;
 $agama = 98 ;
 
 if($pkn >= 90 && $agama >=90  ){
@@ -34,5 +34,18 @@ if($pkn >= 90 && $agama >=90 ) :
     echo "Nilai Anda B " . PHP_EOL;
 else :
     echo "Nilai Anda E " . PHP_EOL;
+endif;
+
+
+
+// Kasus cash register conoth tambahan sendiri 
+
+$total = 120000;
+
+if ($total >= 50000) :
+    echo "Silahkan Ambil Struk Anda, Total Belanja = Rp " .  number_format($total,2,".", ',') . PHP_EOL;
+else :
+    echo "Total belanja anda kurang dari Rp. 50.000,00- \n Total Belanja : Rp " . number_format($total,2,".", ',') . PHP_EOL;
+
 endif;
 ?>
