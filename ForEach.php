@@ -25,8 +25,8 @@ $complete = [
     "alamat" => "Bida Ayu Blok T No 32"
 ];
 
-
 foreach ($complete as $key => $value) {
     echo "$key : $value" . PHP_EOL;
+
 }
 ?>

@@ -32,6 +32,15 @@ $dataBaru = ["access"];
 $check = $dataBaru['access'] ?? "nothing";
 var_dump($check);
 
+$mahasiswaIf = array (
+    "nim" => "3311801036",
+    "name" => "Tenia Nishi"
+);
+
+$cekNull = $mahasiswaIf["nim"] ?? "Tidak ada"; 
+
+var_dump($cekNull) . PHP_EOL;
+
 
 
 

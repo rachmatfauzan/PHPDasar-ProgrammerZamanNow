@@ -17,6 +17,11 @@ endfor;
 
 
 
+for ($data=1; $data <= 5; $data++) : 
+    $hasil = $data*3;
+    echo "Hasil kali 3 dar $data x 3 = $hasil" . PHP_EOL;
+
+endfor;
 
 
 ?>
