@@ -63,3 +63,19 @@ sumAll(1, 4, 6, 8);
 
 $umur = [3, 5, 7, 9];
 sumAll(...$umur);
+
+
+// New topics
+
+function dataSiswa(string $namaSiswa, int $nilai, string $kelas = 'C'){
+
+    echo "============" . PHP_EOL;
+    echo "nilai $nilai, Nama Mahsiswa $namaSiswa, Kelas : $kelas " . PHP_EOL;
+
+    $status = $nilai >=80 ? 'Anda dinyatakan Lulus' : 'Anda tidak LULUS'; 
+
+    echo $status . PHP_EOL;
+
+};
+
+dataSiswa('Andi',200);
